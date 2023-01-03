@@ -10,30 +10,73 @@
     <body>
         <section class="cards-container">
             <h1>User cards</h1>
-
             <div class="flex-wrapper">
                 <article class="user-card">
                     <section class="user-info">
-                        <header>
-                            <img class="user-avatar" src="./assets/image/dogEleven.png" alt="" />
-                            <h2>John Addison</h2>
-                            <address>california,<span>usa</span></address>
+                        <header class="user-header">
+                            <img
+                                class="user-avatar"
+                                src="./assets/image/dogEleven.png"
+                                alt="Avatar"
+                            />
+                            <h2 class="user-name">John Addison</h2>
+                            <address class="user-address">
+                                <img
+                                    class="user-addres-map-mark"
+                                    src="./assets/icons/map-marker.svg"
+                                    alt="Mark"
+                                />
+                                new jersey,<span class="user-uppercase"
+                                    >&nbsp;usa</span
+                                >
+                            </address>
                         </header>
+                        <hr />
                         <div class="container-btn">
-                            <a href="">follow</a>
-                            <a href="">send message</a>
+                            <a
+                                class="container-btn__link container-btn__follow"
+                                href=""
+                                >follow</a
+                            >
+                            <a
+                                class="container-btn__link container-btn__send"
+                                href=""
+                                >send message</a
+                            >
                         </div>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit.
+                        <hr />
+                        <p class="user-text">
+                            Lorem ips consectetur adipisium ,eiusmod tempor
+                            incididuin resprehendeanim.
                         </p>
                     </section>
                     <footer>
-                        <nav>
-                            <ul class="social-list">
-                                <li><a href=""> fb 1</a></li>
-                                <li><a href=""> fb 2</a></li>
-                                <li><a href=""> fb 3</a></li>
+                        <nav class="social-nav">
+                            <ul class="footer-social-list">
+                                <li>
+                                    <a href="https://www.facebook.com"
+                                        ><img
+                                            class="footer__social__icon"
+                                            src="./assets/icons/facebook.svg"
+                                            alt=""
+                                    /></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.google.com"
+                                        ><img
+                                            class="footer__social__icon"
+                                            src="./assets/icons/google-plus.svg"
+                                            alt=""
+                                    /></a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com"
+                                        ><img
+                                            class="footer__social__icon"
+                                            src="./assets/icons/twitter.svg"
+                                            alt=""
+                                    /></a>
+                                </li>
                             </ul>
                         </nav>
                     </footer>
